@@ -1,0 +1,18 @@
+<ForceField>
+ <AtomTypes>
+  <Type name="A" class="AT" element="N" mass="14.00672"/>
+ </AtomTypes>
+ <HarmonicBondForce>
+  <Bond class1="A" class2="B" length="0.1525" k="259408.0"/>
+ </HarmonicBondForce>
+ <HarmonicAngleForce>
+  <Angle class1="A" class2="B" class3="C" angle="2.09439510239" k="669.44"/>
+ </HarmonicAngleForce>
+ <PeriodicTorsionForce>
+  <Proper class1="A" class2="B" class3="C" class4="D" periodicity1="2" phase1="3.14159265359" k1="15.167"/>
+  <Improper class1="A" class2="B" class3="C" class4="D" periodicity1="2" phase1="3.14159265359" k1="4.6024"/>
+ </PeriodicTorsionForce>
+ <NonbondedForce coulomb14scale="0.833333" lj14scale="0.5">
+  <Atom type="A" charge="-0.4157" sigma="0.324999852378" epsilon="0.71128"/>
+ </NonbondedForce>
+</ForceField>
