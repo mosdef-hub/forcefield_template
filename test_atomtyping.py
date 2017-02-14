@@ -10,7 +10,6 @@ MOL2_FILES = glob('test_molecules/*.mol2')
 FORCEFIELD_FILES = glob('*.xml')
 
 FORCEFIELD = Forcefield(forcefield_files=FORCEFIELD_FILES)
-FORCEFIELD = Forcefield(name='oplsaa')
 
 @pytest.mark.parametrize('mol2_file', MOL2_FILES)
 def test_atomtyping(mol2_file):

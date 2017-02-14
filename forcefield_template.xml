@@ -1,15 +1,22 @@
 <ForceField>
  <AtomTypes>
-  <Type name="opls_140" class="HC"  element="H" mass="1.00800"  def="[H][C]" desc="alkane H"/>
-  <Type name="opls_141" class="CM"  element="C" mass="12.01100" def="[C;X3]([C])([C])([C])" desc="alkene C (R2-C=)"/>
-  <Type name="opls_142" class="CM"  element="C" mass="12.01100" def="[C;X3]([C])([C])([H])" desc="alkene C (RH-C=)"/>
-  <Type name="opls_144" class="HC"  element="C" mass="1.00800"  def="[H]([C;%opls_141,C;%opls_142,C;%opls_143])" overrides="opls_140"/>
-  <Type name="opls_145" class="CA"  element="C" mass="12.01100" def="[C;X3;R6]1[C;X3;R6][C;X3;R6][C;X3;R6][C;X3;R6][C;X3;R6]1" overrides="opls_141,opls_142"/>
-  <Type name="opls_146" class="HA"  element="H" mass="1.00800"  def="[H][C;%opls_145]" overrides="opls_144" desc="benzene H"/>
+  <Type name="opls_135" class="CT" element="C" mass="12.01100" def="[C;X4](C)(H)(H)H" desc="alkane CH3"/>
+  <Type name="opls_136" class="CT" element="C" mass="12.01100" def="O" desc="alkane CH2"/>
+  <Type name="opls_137" class="CT" element="C" mass="12.01100" def="O" desc="alkane CH"/>
+  <Type name="opls_138" class="CT" element="C" mass="12.01100" def="O" desc="alkane CH4"/>
+  <Type name="opls_139" class="CT" element="C" mass="12.01100" def="O" desc="alkane C"/>
+  <Type name="opls_140" class="HC" element="H" mass="1.00800"  def="H[C;X4]" desc="alkane H"/>
+  <Type name="opls_145" class="CA" element="C" mass="12.01100" def="O"/>
+  <Type name="opls_146" class="HA" element="H" mass="1.00800"  def="O"/>
  </AtomTypes>
+ <!-- Shown below are example entries for force field parameters.
+
+ Please refer to the OpenMM .xml specs for more info:
+ http://docs.openmm.org/7.0.0/userguide/application.html#writing-the-xml-file
+
  <HarmonicBondForce>
-  <Bond class1="CA" class2="CA" length="0.14" k="392459.1999999999"/>
-  <Bond class1="CA" class2="HA" length="0.10800000000000001" k="307105.59999999986"/>
+  <Bond class1="A" class2="B" length="0.14" k="392459.1999999999"/>
+  <Bond class1="A" class2="C" length="0.10800000000000001" k="307105.59999999986"/>
  </HarmonicBondForce>
  <HarmonicAngleForce>
   <Angle class1="A" class2="B" class3="C" angle="2.09439510239" k="669.44"/>
@@ -21,4 +28,5 @@
  <NonbondedForce coulomb14scale="0.833333" lj14scale="0.5">
   <Atom type="A" charge="-0.4157" sigma="0.324999852378" epsilon="0.71128"/>
  </NonbondedForce>
+ -->
 </ForceField>
