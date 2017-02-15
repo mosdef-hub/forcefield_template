@@ -1,5 +1,10 @@
 ### Title of your forcefield
 
+Installation:
+```bash
+conda install -c omnia -c mosdef parmed foyer pytest
+```
+
 1. Fork this repo
 
 2. Create your force field `.xml` file based on the [OpenMM](http://openmm.org/) [`.xml` format](http://docs.openmm.org/7.0.0/userguide/application.html#creating-force-fields)
