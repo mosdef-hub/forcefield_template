@@ -1,0 +1,1 @@
+## Example SMARTS-based atomtyping
