@@ -1,16 +1,16 @@
 <ForceField>
  <AtomTypes>
   <Type name="opls_135" class="CT" element="C" mass="12.01100" def="[C;X4](H)(H)(H)C" desc="alkane CH3"/>
-  <Type name="opls_136" class="CT" element="C" mass="12.01100" def="[C;X4](H)(H)(C)C" desc="alkane CH2"/>
-  <Type name="opls_137" class="CT" element="C" mass="12.01100" def="[C;X4](H)(C)(C)C" desc="alkane CH"/>
-  <Type name="opls_138" class="CT" element="C" mass="12.01100" def="[C;X4](H)(H)(H)H" desc="alkane CH4"/>
-  <Type name="opls_139" class="CT" element="C" mass="12.01100" def="[C;X4](C)(C)(C)C" desc="alkane C"/>
+  <Type name="opls_136" class="CT" element="C" mass="12.01100" def="O" desc="alkane CH2"/>
+  <Type name="opls_137" class="CT" element="C" mass="12.01100" def="O" desc="alkane CH"/>
+  <Type name="opls_138" class="CT" element="C" mass="12.01100" def="O" desc="alkane CH4"/>
+  <Type name="opls_139" class="CT" element="C" mass="12.01100" def="O" desc="alkane C"/>
   <Type name="opls_140" class="HC" element="H" mass="1.00800"  def="H[C;X4]" desc="alkane H"/>
   <Type name="opls_142" class="CM" element="C" mass="12.01100" def="[C;X3](H)(C)C" desc="alkene C (RH-C=)"/>
-  <Type name="opls_143" class="CM" element="C" mass="12.01100" def="[C;X3](H)(H)C" desc="alkene C (H2-C=)"/>
+  <Type name="opls_143" class="CM" element="C" mass="12.01100" def="O" desc="alkene C (H2-C=)"/>
   <Type name="opls_144" class="HC" element="H" mass="1.00800"  def="H[C;X3]" desc="alkene H"/>
-  <Type name="opls_145" class="CA" element="C" mass="12.01100" def="[C;X3;r6]1[C;X3;r6][C;X3;r6][C;X3;r6][C;X3;r6][C;X3;r6]1" overrides="opls_142,opls_143" desc="benzene C"/> 
-  <Type name="opls_146" class="HA" element="H" mass="1.00800"  def="H[C;%opls_145]" overrides="opls_144" desc="benzene H"/>
+  <Type name="opls_145" class="CA" element="C" mass="12.01100" def="O" desc="benzene C"/>
+  <Type name="opls_146" class="HA" element="H" mass="1.00800"  def="O" desc="benzene H"/>
  </AtomTypes>
 
  <!-- Shown below are example entries for force field parameters.
