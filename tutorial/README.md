@@ -40,7 +40,7 @@ supported definitions for these carbon hydrocarbon systems.
 2. **Testing the initial `XML` file**
 
 Before we begin editing this file, lets first test it and try to understand
-how this testing and atomtyping system operate.
+how this testing and atomtyping system operates.
 
 > We are using the `pytest` testing suite which allows for
 > simple parametrization of unit tests for `python` related software.
@@ -148,7 +148,7 @@ def="[C;X4](H)(H)(H)C"
 ```
 This string means that our atom of interest is a carbon atom, which has
 **four** neighbors. Three of those neighbors are hydrogen branching off
-of the main chain, and the fourth a carbon that continues the main
+of the main chain, and the fourth is a carbon that continues the main
 chain.
 
 Depending on which side, left or right, that you start from, each
