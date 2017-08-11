@@ -8,7 +8,7 @@ conda install -c omnia -c mosdef parmed foyer pytest
 #### Creating a new force field:
 1. Duplicate the force field template.  This can be done in various ways:
  * Use the "Import repository" function on github.com (in the "+" at top right) to import the template  https://github.com/mosdef-hub/forcefield_template 
- * Follow the documentation on this page: https://help.github.com/articles/duplicating-a-repository/
+ * Or, follow the documentation on this page: https://help.github.com/articles/duplicating-a-repository/
 
 2. Create your force field `.xml` file based on the [OpenMM](http://openmm.org/) [`.xml` format](http://docs.openmm.org/7.0.0/userguide/application.html#creating-force-fields)
 and add [foyer](https://github.com/mosdef-hub/foyer) style SMARTS strings to define your atom types. Example force field files:
