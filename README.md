@@ -35,12 +35,13 @@ and add [foyer](https://github.com/mosdef-hub/foyer) style SMARTS strings to def
  * Forcefield file initially created [DATE] by [Creator(s)]
 
 #### Source Notes:
-< Add specific notes about parameters, e.g., if a set of parameters come verbatim from prior work, provide details and a DOI >
+< Add specific notes about parameters, e.g., if a set of parameters comes verbatim from prior work, provide details and a DOI >
 
 #### Additional Notes:
-< Add any other relevant information. Also For consistency, please define conversion factors used. Note that we strongly suggest follow unit conversions defined in openMM, as detailed below. >
- * PI is defined as 3.141592653589 for conversion to radians, consistent with openMM.
- * kcal/mol to kJ/mol conversion factor of 4.184, consistent with openMM.
+< Add any other relevant information. Also for consistency, please define conversion factors used. 
+Note that we strongly suggest the following unit conversions defined in OpenMM, e.g.: >
+ * PI is defined as 3.141592653589 for conversion to radians.
+ * kcal/mol to kJ/mol conversion factor is defined as 4.184.
  
 ### Force field DOI
   * [![DOI](https://zenodo.org/badge/XXX/USER_NAME/YOUR_FORCEFIELD_REPO.svg)](https://zenodo.org/badge/latestdoi/XXX/USER_NAME/YOUR_FORCEFIELD_REPO)
