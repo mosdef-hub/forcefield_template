@@ -12,6 +12,8 @@ Creating a new force field
 
 2. Create your force field `.xml` file based on the [OpenMM](http://openmm.org/) [`.xml` format](http://docs.openmm.org/7.0.0/userguide/application.html#creating-force-fields)
 and add [foyer](https://github.com/mosdef-hub/foyer) style SMARTS strings to define your atom types. 
+ * Example force field files:
+  * https://github.com/chrisiacovella/OPLSaa_perfluoroalkanes
 
 3. Optionally, add example molecules with correct atomtypes defined as test cases. Execute the testing script using `py.test -v --tb=line`
  * Note, even if test molecules are not created, running py.test is recommended, as this will perform checking of your data file for proper syntax and ensure that all atom types references are defined.
