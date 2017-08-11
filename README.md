@@ -16,7 +16,7 @@ and add [foyer](https://github.com/mosdef-hub/foyer) style SMARTS strings to def
  ** https://github.com/chrisiacovella/OPLSaa_perfluoroalkanes
 
 3. Optionally, add example molecules with correct atomtypes defined as test cases. Execute the testing script using `py.test -v --tb=line`
- * Note, even if test molecules are not created, running py.test is recommended, as this will perform checking of your data file for proper syntax and ensure that all atom types references are defined.
+ * Note, even if test molecules are not created, running `py.test -v --tb=line` is recommended, as this will perform checking of your `.xml` file for proper syntax and ensure that all atom types references are defined.
 
 4. Generate your own DOI via Zenodo
   * https://guides.github.com/activities/citable-code/
