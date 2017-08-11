@@ -1,11 +1,11 @@
 ### Getting Started
 
-Installation of Foyer and required tools
+#### Installation of Foyer and required tools
 ```bash
 conda install -c omnia -c mosdef parmed foyer pytest
 ```
 
-Creating a new force field
+#### Creating a new force field:
 1. Duplicate the force field template.  This can be done in various ways:
  * Use the "Import repository" function on github.com (in the "+" at top right) to import the template  https://github.com/mosdef-hub/forcefield_template 
  * Follow the documentation on this page: https://help.github.com/articles/duplicating-a-repository/
@@ -23,7 +23,10 @@ and add [foyer](https://github.com/mosdef-hub/foyer) style SMARTS strings to def
 5. Update the link to the Zenodo DOI badge
   * [![DOI](https://zenodo.org/badge/XXX/USER_NAME/YOUR_FORCEFIELD_REPO.svg)](https://zenodo.org/badge/latestdoi/XXX/USER_NAME/YOUR_FORCEFIELD_REPO)
 
-The text above can be removed upon publishing a forcefield, but please be sure to include the following, 
+
+#### The text above can be removed upon publishing a forcefield, but please be sure to include the following information in the README:
+
+
 
 ### [Title of your forcefield]
 
